@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Tab2Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/text"
+        android:text="Dell insipron 3542 YI2465738 Core i7 "
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+    <View
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/text"
+        android:text="Dell insipron 3542 YI2465738 Core i3 "
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+    <View
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/text"
+        android:text="Dell insipron 3542 YI2465738 Core i3 "
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+    <View
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/text"
+        android:text="Dell insipron 3542 YI2465738 Core i3 "
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+    <View
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+
+</LinearLayout>

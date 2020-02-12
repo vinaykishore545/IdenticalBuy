@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryProducr">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <EditText
+                android:background="@drawable/rect"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/my_custom_font_regular"
+                android:hint="Sreach here"
+                android:textColor="#000"
+                android:paddingEnd="40dp"
+
+                android:drawableRight="@drawable/colorsreac"
+                android:paddingStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary" />
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+
+        <!--<LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:background="@drawable/rect"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="40dp"
+                android:hint="dshgdghghgfhffg"
+                android:textColor="#000"
+                android:paddingEnd="40dp"
+                android:drawableRight="@drawable/colorsreac"
+                android:paddingStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+
+        </LinearLayout>-->
+        <!--<EditText
+            android:background="@drawable/rect"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:hint="dshgdghghgfhffg"
+            android:textColor="#000"
+            android:paddingEnd="40dp"
+            android:drawableRight="@drawable/colorsreac"
+            android:paddingStart="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>-->
+       <!-- <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary" />-->
+
+
+    </LinearLayout>
+    <!-- <com.google.android.material.tabs.TabLayout
+         android:id="@+id/tabs"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:background="?attr/colorPrimary" />-->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        />
+    <LinearLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/rectangel"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:textColor="#fff"
+            android:text="Sreach from"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <ImageView
+
+
+                    android:src="@drawable/camera"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <View
+                    android:background="#fff"
+                    android:layout_gravity="center"
+
+                    android:layout_width="1dp"
+                    android:layout_height="30dp"/>
+
+                <ImageView
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/gallery"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"/>
+                <View
+                    android:background="#fff"
+                    android:layout_gravity="center"
+
+                    android:layout_width="1dp"
+                    android:layout_height="30dp"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:src="@drawable/scan"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"/>
+
+
+
+
+
+            </LinearLayout>
+            <!-- <ImageView
+                 android:layout_marginStart="30dp"
+                 android:layout_gravity="center"
+                 android:src="@drawable/camera"
+                 android:layout_width="30dp"
+                 android:layout_height="30dp"/>
+             <View
+                 android:background="#fff"
+                 android:layout_gravity="center"
+                 android:layout_marginStart="30dp"
+                 android:layout_width="4dp"
+                 android:layout_height="30dp"/>
+
+             <ImageView
+                 android:layout_marginStart="30dp"
+                 android:layout_gravity="center"
+                 android:src="@drawable/gallery"
+                 android:layout_width="40dp"
+                 android:layout_height="30dp"/>
+             <View
+                 android:background="#fff"
+                 android:layout_gravity="center"
+                 android:layout_marginStart="40dp"
+                 android:layout_width="4dp"
+                 android:layout_height="30dp"/>
+             <ImageView
+                 android:layout_marginStart="30dp"
+                 android:layout_gravity="center"
+                 android:src="@drawable/scan"
+                 android:layout_width="40dp"
+                 android:layout_height="30dp"/>
+
+
+-->
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

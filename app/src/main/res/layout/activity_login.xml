@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+    <LinearLayout
+        android:background="@drawable/backgroundframe"
+        android:layout_width="match_parent"
+        android:layout_height="229dp">
+        <ImageView
+            android:layout_marginStart="103dp"
+            android:layout_marginEnd="103dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/layer_52"
+            android:layout_width="169dp"
+            android:layout_height="81dp"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:hintTextAppearance="@style/GreenTextInputLayout"
+        android:hint="Email"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:shapeAppearance="@style/Rounded"
+        tools:ignore="HardcodedText">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:textColor="@color/text"
+            android:fontFamily="@font/my_custom_font_semi_bold"
+            android:textSize="14sp"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:hintTextAppearance="@style/GreenTextInputLayout"
+        android:hint="Password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:shapeAppearance="@style/Rounded"
+        tools:ignore="HardcodedText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:textColor="@color/text"
+            android:fontFamily="@font/my_custom_font_semi_bold"
+            android:textSize="14sp"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--    <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="13dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_height="10dp"/>
+            <TextView
+                android:layout_marginTop="2dp"
+               android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/text"
+                android:text="Remember Me"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+        </LinearLayout>-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/but"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="match_parent"
+        app:shapeAppearance="@style/Rounded"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/my_custom_font"
+        android:layout_marginEnd="30dp"
+        android:layout_height="60dp"
+        app:rippleColor="@color/text"
+        android:text="sign in"
+        tools:ignore="HardcodedText">
+    </com.google.android.material.button.MaterialButton>
+    <TextView
+        android:id="@+id/signup"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/text"
+        android:textSize="14sp"
+        android:text="SIGN UP"
+        android:fontFamily="@font/my_custom_font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:src="@drawable/facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="30dp"
+            android:src="@drawable/twiter"
+            tools:ignore="ContentDescription,RtlSymmetry" />
+
+        <ImageView
+            android:paddingStart="30dp"
+            android:src="@drawable/messge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
